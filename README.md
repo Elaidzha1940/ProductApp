@@ -1,7 +1,7 @@
 ⌨️ Product Catalog App. 
 ===== 
 
-###Ru:
+### Ru
 - Таргет: iOS 16
   Приложение поддерживает только устройства с iOS 16 и выше, чтобы использовать новые возможности платформы.
 
@@ -46,7 +46,7 @@
 
 -----
 
-###En: 
+### En
 - Target: iOS 16
 The app supports devices running iOS 16 and above to leverage the latest platform capabilities.
 
