@@ -3,10 +3,6 @@
 
 https://github.com/user-attachments/assets/02fb159e-07ad-4622-982f-ea81d646ec5e
 
-<img width="245" alt="iPhone SE" src="https://github.com/user-attachments/assets/3bc64c0c-5c18-4cbe-a757-546a2d6cf4a3">
-<img width="255" alt="iPhone 16 Pro Max" src="https://github.com/user-attachments/assets/55a1861e-9af3-4149-af52-99bafc097211">
-<img width="295" alt="iPad (10th generation)" src="https://github.com/user-attachments/assets/7aebadb8-c14c-4304-96be-3712e95f60b1">
-
 -----
 
 ### Ru
@@ -51,6 +47,12 @@ https://github.com/user-attachments/assets/02fb159e-07ad-4622-982f-ea81d646ec5e
      - Корректное отображение данных и оптимизация изображений.
      - Обработка ошибок и взаимодействие с пользователем через жесты (`Pull-to-Refresh`).
      - Адаптивный интерфейс, поддерживающий темные/светлые темы и динамический размер текста.
+
+-----
+
+<img width="255" alt="iPhone SE" src="https://github.com/user-attachments/assets/0212ae09-8f8a-407a-a0ae-3f20fbe0b362">
+<img width="255" alt="iPhone 16 Pro Max" src="https://github.com/user-attachments/assets/1bc98c62-c10b-4d2e-8050-ad0b1561f013">
+<img width="255" alt="iPad (10th generation)" src="https://github.com/user-attachments/assets/c5db2c2f-d6e4-4364-a4d0-82357a91caf6">
 
 -----
 
