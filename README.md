@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/02fb159e-07ad-4622-982f-ea81d646ec5e
 
 <img width="250" alt="iPhone SE" src="https://github.com/user-attachments/assets/0212ae09-8f8a-407a-a0ae-3f20fbe0b362">
 <img width="250" alt="iPhone 16 Pro Max" src="https://github.com/user-attachments/assets/1bc98c62-c10b-4d2e-8050-ad0b1561f013">
-<img width="330" alt="iPad (10th generation)" src="https://github.com/user-attachments/assets/c5db2c2f-d6e4-4364-a4d0-82357a91caf6">
+<img width="325" alt="iPad (10th generation)" src="https://github.com/user-attachments/assets/c5db2c2f-d6e4-4364-a4d0-82357a91caf6">
 
 -----
 
