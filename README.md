@@ -1,6 +1,7 @@
 ⌨️ Product Catalog App. 
 ===== 
 
+###Ru:
 - Таргет: iOS 16
   Приложение поддерживает только устройства с iOS 16 и выше, чтобы использовать новые возможности платформы.
 
@@ -44,3 +45,47 @@
      - Адаптивный интерфейс, поддерживающий темные/светлые темы и динамический размер текста.
 
 -----
+
+###En: 
+- Target: iOS 16
+The app supports devices running iOS 16 and above to leverage the latest platform capabilities.
+
+- Technologies: Swift, SwiftUI
+The app is developed using Swift and SwiftUI for building the user interface.
+
+- Architecture: MVVM (Model-View-ViewModel)
+The app follows the MVVM architecture.
+
+     - Model: Defines product data, including name, price, quantity, and image.
+     - ViewModel: Manages the state and business logic, including fetching data from the API and handling errors.
+     - View: Displays the product list and provides an interface for user interaction.
+       
+- Asynchronous Processing: Concurrency, MainActor
+The app uses Swift Concurrency (async/await) for handling network requests and asynchronous tasks. The @MainActor annotation ensures that all UI-related operations are performed on the main thread.
+
+- Functionality:
+
+1. Product Loading from API: The app loads products in a paginated fashion (20 products per page) from an external API (e.g., dummyjson.com/products).
+2. Product Display: The product list shows the name, price, quantity, and a resized image (64x64 pixels).
+3. Error Handling: If a loading error occurs, an error message is shown with the option to retry.
+4. Pull-to-Refresh: The app supports a pull-to-refresh gesture for updating the product list.
+5. Adaptive Interface: The app adjusts to dynamic text sizes (SizeCategory) and adapts to both light and dark modes.
+   
+- User Interface:
+     - A simple and intuitive scrollable product list.
+     - Automatic adaptation to changes in system theme and text size preferences.
+
+- Asynchronous Data Loading and Multithreading:
+     - The app leverages built-in Swift mechanisms (URLSession and async/await) for fetching data and multithreading, ensuring smooth network operations and proper UI updates.
+       
+- Image Handling:
+     - All images are optimized to 64x64 pixels for memory efficiency and improved performance.
+       
+- Error Handling:
+     - In case of a failed data load, the app displays an error message and allows users to retry.
+       
+- Key Implementation Criteria:
+     - Correct network handling with asynchronous processing and multithreading.
+     - Proper data display and image optimization.
+     - Error handling and interaction with users via pull-to-refresh.
+     - Adaptive interface supporting both light/dark themes and dynamic text sizing (SizeCategory).
