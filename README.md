@@ -1,6 +1,13 @@
 ⌨️ Product Catalog App.  
 ===== 
 
+https://github.com/user-attachments/assets/02fb159e-07ad-4622-982f-ea81d646ec5e
+
+<img width="375" alt="iPhone SE" src="https://github.com/user-attachments/assets/3bc64c0c-5c18-4cbe-a757-546a2d6cf4a3">
+<img width="388" alt="iPhone 16 Pro Max" src="https://github.com/user-attachments/assets/55a1861e-9af3-4149-af52-99bafc097211">
+<img width="566" alt="iPad (10th generation)" src="https://github.com/user-attachments/assets/7aebadb8-c14c-4304-96be-3712e95f60b1">
+-----
+
 ### Ru
 - Таргет: iOS 16
   Приложение поддерживает только устройства с iOS 16 и выше, чтобы использовать новые возможности платформы.
