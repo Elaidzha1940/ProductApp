@@ -1,7 +1,7 @@
 ⌨️ Product Catalog App.  
 ===== 
 
-https://github.com/user-attachments/assets/02fb159e-07ad-4622-982f-ea81d646ec5e
+https://github.com/user-attachments/assets/a19a6848-2bf0-4460-a40a-88350da102bd
 
 -----
 
