@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 24.10.2024
 //
-//  */ 
+//  */
 
 import Foundation
 

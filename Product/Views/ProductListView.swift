@@ -19,6 +19,11 @@ struct ProductListView: View {
                 // Перебираем и отображаем продукты из ViewModel
                 ForEach(viewModel.products) { product in
                     ProductRowView(product: product) // Используем отдельное представление для строки с продуктом
+                        .onAppear {
+                            Task {
+                                await viewModel.loadMoreProductsIfNeeded(currentProduct: product)
+                            }
+                        }
                 }
                 // Показываем индикатор загрузки, если данные загружаются
                 if viewModel.isLoading {
@@ -69,7 +74,7 @@ struct ProductRowView: View {
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 64, height: 64) // Уменьшаем размер изображения до 65x65
+                    .frame(width: 64, height: 64) // Уменьшаем размер изображения до 64x64
             } placeholder: {
                 ProgressView() // Отображаем индикатор загрузки, пока изображение не загружено
                     .frame(width: 64, height: 64)

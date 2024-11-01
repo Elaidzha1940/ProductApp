@@ -10,7 +10,7 @@
 import Foundation
 
 // Модель данных для продукта, который будет загружаться из API
-struct Product: Identifiable, Codable {
+struct Product: Identifiable, Codable, Equatable {
     let id: Int           // Уникальный идентификатор товара
     let title: String     // Название товара
     let price: Double     // Цена товара
